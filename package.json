@@ -1,0 +1,36 @@
+{
+  "name": "react-type-effect",
+  "version": "0.0.1",
+  "description": "Creates a typing effect",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "www.git.com"
+  },
+  "keywords": [
+    "react",
+    "typer"
+  ],
+  "author": "iam the author",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@storybook/addon-actions": "^6.3.8",
+    "@storybook/addon-essentials": "^6.3.8",
+    "@storybook/addon-links": "^6.3.8",
+    "@storybook/react": "^6.3.8",
+    "babel-loader": "^8.2.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "peerDependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "dependencies": {}
+}
