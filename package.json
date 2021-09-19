@@ -6,7 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "lint": "eslint './src/**/*.{js,jsx}' './stories/**/*.{js,jsx}' && stylelint './src/**/*.{js,jsx}'",
+    "lint:js": "eslint './src/**/*.{js,jsx}' './stories/**/*.{js,jsx}'",
+    "lint:css": "stylelint './src/**/*.{js,jsx}'"
   },
   "repository": {
     "type": "git",
@@ -28,9 +31,18 @@
     "@storybook/react": "^6.3.8",
     "@storybook/theming": "^6.3.8",
     "babel-loader": "^8.2.2",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "prettier": "2.4.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "styled-components": "^5.3.1"
+    "styled-components": "^5.3.1",
+    "stylelint": "^13.13.1",
+    "stylelint-config-prettier": "^8.0.2",
+    "stylelint-config-recommended": "^5.0.0",
+    "stylelint-config-styled-components": "^0.1.1",
+    "stylelint-processor-styled-components": "^1.10.0"
   },
   "peerDependencies": {
     "react": "^17.0.2",
