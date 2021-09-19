@@ -1,8 +1,8 @@
 import PropTypes from 'prop-types';
 import styled, { css } from 'styled-components/macro';
 
-import Cursor from '../Cursor';
-import '../../keyframes.css';
+import Cursor from './Cursor';
+import '../style/keyframes.css';
 
 const StyledTyperBlock = styled.div`
   display: flex;

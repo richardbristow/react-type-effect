@@ -62,7 +62,7 @@ const ArrayTyper = ({
       handleNextBlock,
       lastChild,
       nextBlockDelay,
-    ]
+    ],
   );
 
   useEffect(() => {
@@ -70,7 +70,7 @@ const ArrayTyper = ({
       () => {
         indexedCharTyper(arrayToType[childrenIndex]);
       },
-      currentCharIndex === 0 && childrenIndex === 0 ? startTypingDelay : 0
+      currentCharIndex === 0 && childrenIndex === 0 ? startTypingDelay : 0,
     );
 
     return () => {
