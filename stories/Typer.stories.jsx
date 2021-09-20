@@ -9,15 +9,16 @@ export default {
 };
 
 const Template = (args) => (
+  // eslint-disable-next-line react/jsx-props-no-spreading
   <Typer {...args}>
-    <TyperBlock marker=">" withCursor={true} cursorBlink={false}>
+    <TyperBlock marker=">" withCursor cursorBlink={false}>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua.
     </TyperBlock>
-    <TyperBlock marker=">" withCursor={true} cursorBlink={false}>
+    <TyperBlock marker=">" withCursor cursorBlink={false}>
       Vitae congue mauris rhoncus aenean vel elit scelerisque mauris.
     </TyperBlock>
-    <TyperBlock marker=">" withCursor={true} cursorBlink={false} />
+    <TyperBlock marker=">" withCursor cursorBlink={false} />
   </Typer>
 );
 
