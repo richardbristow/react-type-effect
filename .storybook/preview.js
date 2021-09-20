@@ -1,6 +1,6 @@
 import { themes } from '@storybook/theming';
 
-export const parameters = {
+const parameters = {
   actions: { argTypesRegex: '^on[A-Z].*' },
   controls: {
     matchers: {
@@ -12,3 +12,5 @@ export const parameters = {
     theme: themes.dark,
   },
 };
+
+export default parameters;
