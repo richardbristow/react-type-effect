@@ -7,8 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "lint": "eslint './src/**/*.{js,jsx}' './stories/**/*.{js,jsx}' && stylelint './src/**/*.{js,jsx}'",
-    "lint:js": "eslint './src/**/*.{js,jsx}' './stories/**/*.{js,jsx}'",
+    "lint": "eslint './src/**/*.{js,jsx}' './stories/**/*.{js,jsx}' './.storybook/**/*.{js,jsx}' && stylelint './src/**/*.{js,jsx}'",
+    "lint:js": "eslint './src/**/*.{js,jsx}' './stories/**/*.{js,jsx}' './.storybook/**/*.{js,jsx}'",
     "lint:css": "stylelint './src/**/*.{js,jsx}'"
   },
   "repository": {
