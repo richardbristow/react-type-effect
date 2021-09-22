@@ -1,5 +1,3 @@
-import React from 'react';
-
 import TyperBlock from '../src/components/TyperBlock';
 
 export default {
