@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import styled, { css } from 'styled-components/macro';
+import styled, { css } from 'styled-components';
 
 import Cursor from './Cursor';
 
